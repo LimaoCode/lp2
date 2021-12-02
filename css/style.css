@@ -1,0 +1,235 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 1280px;
+    margin: 50px auto;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo-wrap{
+    width: 30%;
+    justify-content: start;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.menu-wrap{
+    width: 33.1%;
+    justify-content: center;
+}
+
+.menu{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.menu-lista{
+    display: inline-flex;
+    align-items: center;
+}
+
+.menu-item{
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.botao-wrap{
+}
+
+.botao-login{
+    color: #000;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao-singup{
+    color: #ffffff;
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: #000;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+section{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.container-card{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-flow: nowrap;
+    margin-bottom: 10%;
+    height: 750px;
+}
+
+.card{
+    background-color: #f1f1f1;
+    width: 50%;
+    display: inline;
+}
+
+.trial{
+    font-size: 18px;
+    padding: 0 50px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.titulo-card{
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding: 0 50px;
+}
+
+.texto-card{
+    font-size: 20px;
+    margin-bottom: 75px;
+    padding: 0 50px;
+}
+
+.botao-card{
+    color: #ffffff;
+    border: solid 1px #000;
+    border-radius: 5px;
+    background-color: #000;
+    margin: 0 50px;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+.imagem-card{
+    width: 50%;
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    
+}
+
+.container-details{
+    display: inline;
+    padding: 10px 10px;
+}
+
+.titulo-details{
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+.texto-details{
+    text-align: center;
+    font-size: 18px;
+    font-weight:lighter;
+}
+
+.container-types{
+    display: flex;
+    justify-content: space-between;
+}
+
+.type-content{
+    text-align: center;
+}
+
+.type-image{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.type-text{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container-download{
+    display: flex;
+    margin-top: 10%;
+}
+
+.conteudo-download{
+    margin: 150px;
+}
+
+.titulo-download{
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 45px;
+    text-align: center;
+}
+
+.texto-download{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.container-botao-app{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0px;
+}
+
+.botao-appstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+}
+
+.container-botao-play{
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.botao-playstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+}
+
+.texto-botao{
+    margin-left: 15px;
+}
